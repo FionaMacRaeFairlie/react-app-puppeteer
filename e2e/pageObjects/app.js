@@ -1,6 +1,6 @@
 import { root } from './index';
 
-const introSelector = '.App-header > p';
+const introSelector = '.App-header> p';
 const linkSelector = '.App-link';
 
 export const getIntroText = async () => {
